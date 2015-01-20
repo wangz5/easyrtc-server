@@ -1,0 +1,30 @@
+{
+  "name"        : "EasyRTCServer",
+  "version"     : "0.1.0",
+  "author"      : "Zhangcd",
+  "description" : "EasyRTC server project which includes EasyRTC, Express, and Socket.io",
+
+  "private"     : true,
+
+  "scripts": {
+    "start"     : "node server.js"
+  },
+
+  "dependencies" : {
+		"async"			:	"*",
+    "easyrtc"   : "*",
+    "express"   : "*",
+    "socket.io" : "*",
+		"forever"		:	"*",
+		"log4js"		:	"*",
+		"libxmljs"	:	"*",
+		"mysql"			:	"*",
+		"supervisor":	"*"
+  },
+
+  "license"     : "BSD2",
+
+  "engines": {
+    "node"      : ">=0.8"
+  }
+}
